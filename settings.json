@@ -19,4 +19,37 @@
     "extensions.ignoreRecommendations": false,
     "editor.parameterHints.enabled": false,
     "python.formatting.autopep8Path": "autopep8",
+    "explorer.confirmDelete": false,
+    "workbench.colorTheme": "Visual Studio Light",
+    "vim.handleKeys": {
+        "<C-a>": false,
+        "<C-f>": false,
+        "<C-c>": false,
+        "<C-x>": false
+    },
+    "vim.startInInsertMode": true,
+    "vim.insertModeKeyBindings": [
+        {
+            "before": [
+                "<C-e>"
+            ],
+            "after": [
+                "<Esc>",
+                "$",
+                "i",
+                "Right"
+            ]
+        }
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                ":"
+            ],
+            "commands": [
+                "workbench.action.showCommands"
+            ],
+        }
+    ],
+    "code-runner.runInTerminal": true,
 }
