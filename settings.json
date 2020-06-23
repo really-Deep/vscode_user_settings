@@ -31,6 +31,16 @@
                 "i",
                 "Right"
             ]
+        },
+        {
+            "before": [
+                "<C-q>"
+            ],
+            "after": [
+                "<space>",
+                "<space>",
+                "Left"
+            ]
         }
     ],
     "vim.normalModeKeyBindingsNonRecursive": [
