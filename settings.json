@@ -63,6 +63,7 @@
         "django-html": "html",
     },
     "python.linting.pylintArgs": [
-        "--load-plugins=pylint-django"
+        "--load-plugins=pylint_django",
+        "--errors-only"
     ],
 }
