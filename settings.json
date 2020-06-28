@@ -76,4 +76,8 @@
         "--load-plugins=pylint_django",
         "--errors-only"
     ],
+    "tabnine.experimentalAutoImports": true,
+    "window.zoomLevel": 0,
+    "workbench.colorTheme": "Solarized Light",
+    "python.formatting.provider": "black",
 }
