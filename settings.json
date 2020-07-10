@@ -50,7 +50,12 @@
     "--errors-only"
   ],
   "tabnine.experimentalAutoImports": true,
-  "window.zoomLevel": 0,
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.python"
+  },
   "python.formatting.provider": "black",
-  "python.formatting.blackArgs": ["--line-length", "120"]
+  "window.zoomLevel": 0,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
