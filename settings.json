@@ -57,5 +57,9 @@
   "window.zoomLevel": 0,
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  },
+  "python.pythonPath": "/bin/python3",
+  "git.confirmSync": false,
+"editor.detectIndentation": false,
+"workbench.colorTheme": "Default Light+"
 }
