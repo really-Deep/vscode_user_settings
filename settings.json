@@ -13,7 +13,8 @@
         "<C-a>": false,
         "<C-f>": false,
         "<C-c>": false,
-        "<C-x>": false
+        "<C-x>": false,
+        "<C-v>": false
     },
     "vim.startInInsertMode": true,
     "vim.insertModeKeyBindings": [
@@ -50,15 +51,14 @@
     "vsicons.dontShowNewVersionMessage": true,
     "editor.tabCompletion": "on",
     "editor.detectIndentation": false,
-    "python.languageServer": "Microsoft",
-    "files.associations": {
-        "*.py": "python",
-        "**/*.html": "html",
-        "**/templates/**/*.html": "django-html",
-        "**/templates/*.html": "django-html",
-        "**/templates/**/*": "django-txt",
-        "**/requirements{/**,*}.{txt,in}": "pip-requirements"
-    },
+    // "files.associations": {
+    //     "*.py": "python",
+    //     "**/*.html": "html",
+    //     "**/templates/**/*.html": "django-html",
+    //     "**/templates/*.html": "django-html",
+    //     "**/templates/**/*": "django-txt",
+    //     "**/requirements{/**,*}.{txt,in}": "pip-requirements"
+    // },
     "editor.autoClosingOvertype": "always",
     "python.autoComplete.addBrackets": true,
     "editor.autoClosingBrackets": "always",
@@ -70,12 +70,17 @@
     "[markdown]": {
         "editor.quickSuggestions": false
     },
-    "prettier.proseWrap": "never",
     "explorer.confirmDragAndDrop": false,
     "python.autoComplete.extraPaths": ["/home/deep/projects/"],
     "python.formatting.provider": "black",
     "python.linting.pylintArgs": [
-        "--load-plugins=pylint_django",
-        "--errors-only"
-    ]
+        "--load-plugins=pylint_django"
+        // "--errors-only"
+    ],
+    "python.linting.pylintPath": "/home/deep/.local/bin/pylint",
+    "extensions.ignoreRecommendations": true,
+    "git.enableSmartCommit": true,
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
 }
